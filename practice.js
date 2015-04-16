@@ -1,11 +1,15 @@
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
 
-var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only argument.
+
+
+var name = 'Tyler';
+
+
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-  //Code Here
+
 function isTyler (name) {
 	if (name === "Tyler") {
 		return true;
@@ -14,14 +18,14 @@ function isTyler (name) {
 }
 alert(isTyler("Tyler"));
 
-//Next problem
+
 
 
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 
-  //Code Here
+ 
 
 var name = prompt("What is your name?");
 var getName = function() {
@@ -29,20 +33,19 @@ return name;
 }
 console.log(name);
 
-//Next Problem
+
 
 
 
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  //Code Here
+ 
 var welcome = function() {
 alert("Welcome " + getName(name) + "!");
 }
 welcome(getName);
 
-//Next problem
 
 
 
@@ -52,7 +55,6 @@ welcome(getName);
  The parameters are the aliases for the values that will be passed to the function. The arguments are the actual values.
 
 
-//Next problem
 
 
 
@@ -63,9 +65,6 @@ Falsey: Something which evaluates to FALSE.
 One (1) is truthy, Zero (0) is falsey.
 undefined, null, NaN, 0, "" (empty string), and false are falsey.
 
-
-
-//Next Problem
 
 
 
@@ -84,7 +83,6 @@ undefined, null, NaN, 0, "" (empty string), and false are falsey.
 
 alert(newMyName);
 
-//Next problem
 
 
 
